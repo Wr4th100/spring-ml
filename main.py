@@ -22,7 +22,7 @@ class RainfallInputData(BaseModel):
     month: float
 
 
-@app.get("/")
+@app.get("/") 
 async def root():
     return {"message": "Hello from FastAPI!"}
 
