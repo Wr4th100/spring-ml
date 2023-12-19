@@ -3,7 +3,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import pickle
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 
 app = FastAPI()
 
