@@ -14,7 +14,7 @@ with open("rainfall.pkl", "rb") as file:
 
 
 class InputData(BaseModel):
-    rainfall: float
+    rainfall: int
 
 
 class RainfallInputData(BaseModel):
